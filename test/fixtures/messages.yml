@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  body: MyText
+  chanel_id: 
+  user_id: 
+  is_read: false
+  read_at: 2016-03-21 01:38:53
+
+two:
+  body: MyText
+  chanel_id: 
+  user_id: 
+  is_read: false
+  read_at: 2016-03-21 01:38:53

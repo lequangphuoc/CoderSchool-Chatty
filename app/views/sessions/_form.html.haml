@@ -1,0 +1,7 @@
+= form_for :session, url: signin_path do |f|
+	.form-group
+		= f.text_field :email, class: 'form-control', placeholder: 'Your E-mail'
+	.form-group
+		= f.password_field :password, class: 'form-control', placeholder: 'Password'
+	.form-group
+		= f.submit 'Sign In', class: 'btn btn-block btn-primary'

@@ -1,0 +1,13 @@
+%nav.navbar.navbar-dark.bg-primary
+	.container
+		%a.navbar-brand{:href => "#"} Chatty
+		- if signed_in?
+			%ul.nav.navbar-nav.pull-xs-right
+				%li.nav-item
+					= link_to "Welcome, #{current_user.name}", '', class: "nav-link"
+				%li.nav-item
+					= link_to "New Message", new_message_path, class: "nav-link"
+				%li.nav-item
+					= link_to "Add Friends", '', class: "nav-link"
+				%li.nav-item
+					= link_to "Logout", logout_path, method: "delete", class: "nav-link"
